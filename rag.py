@@ -1,7 +1,7 @@
 from openai import OpenAI
 import os
 
-OPENAI_API_KEY = "sk-proj-HzHFLXON8v3z9n71gZZN6hRkdDwVlz0QBSNmYY9vmYqmNNxgPT3BlbkFJqsZhCOi0Yvs9kuqckavSVwO0oAKNI_Y4WgbZYGkijryR1XQPk6bGyI8yFnmbNHcy7PhtTcYIQA"
+OPENAI_API_KEY = "gZZ" #UPdate it with your OpenAI API key
 client = OpenAI(api_key=OPENAI_API_KEY)
 from llama_index.core import SimpleDirectoryReader, GPTVectorStoreIndex
 
